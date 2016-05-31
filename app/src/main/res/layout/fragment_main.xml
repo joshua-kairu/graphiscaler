@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Graphiscaler
+
+ Tutorial for showcasing typographical scale
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+ -->
+
+<!-- ScrollView to show the words in different scales -->
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    >
+
+    <!-- LinearLayout to hold the all the words -->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:paddingLeft="@dimen/layout_padding"
+
+        android:paddingRight="@dimen/layout_padding"
+
+        android:paddingTop="@dimen/layout_padding"
+
+        android:paddingBottom="@dimen/layout_padding"
+
+        android:orientation="vertical"
+
+        tools:context=".MainActivityFragment"
+
+        tools:showIn="@layout/activity_main"
+
+        >
+
+        <!-- LinearLayout to hold the display 4 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/display4"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_display4"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Display4"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the display 3 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/display3"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_display3"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Display3"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the display 2 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/display2"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_display2"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Display2"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the display 1 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/display1"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_display1"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Display1"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the headline words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/headline"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_headline"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Headline"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the title words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/title"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_title"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Title"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the subhead words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/subhead"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_subhead"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Subhead"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the body 2 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/body2"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_body2"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Body2"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the body 1 words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/body1"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_body1"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Body1"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the caption words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/caption"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_caption"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Caption"
+
+                />
+
+        </LinearLayout>
+
+        <!-- LinearLayout to hold the button words -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <!-- TextView for the kind of word -->
+
+            <TextView
+
+                android:text="@string/button"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/label"
+
+                />
+
+            <!-- TextView for the Hello World -->
+
+            <TextView
+
+                android:id="@+id/fm_tv_button"
+
+                android:text="@string/hello_world"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                style="@style/TextAppearance.AppCompat.Button"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

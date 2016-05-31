@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Graphiscaler
+
+ Tutorial for showcasing typographical scale
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+ -->
+
+<PreferenceScreen
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <!-- parent pref, which dis/enables kid prefs when un/checked -->
+
+    <CheckBoxPreference
+
+        android:key="PREFERENCE_KEY_NOTIFICATIONS_NEW_MESSAGE"
+
+        android:title="@string/pref_title_new_message_notifications"
+
+        android:defaultValue="true"
+
+        />
+
+    <!--
+
+    allows user to choose a ringtone in the 'notif' category
+    enabled only when checkbox above is checked
+    ringtone preference summary should be set to its value in activity code
+    ringtoneType - ringtone types to show in picker
+
+    -->
+
+    <RingtonePreference
+
+        android:dependency="PREFERENCE_KEY_NOTIFICATIONS_NEW_MESSAGE"
+
+        android:key="PREFERENCE_KEY_NOTIFICATIONS_NEW_MESSAGE_RINGTONE"
+
+        android:title="@string/pref_title_ringtone"
+
+        android:ringtoneType="notification"
+
+        android:defaultValue="content://settings/system/notification_sound"
+
+        />
+
+    <!-- enabled only when first checkbox is checked -->
+
+    <CheckBoxPreference
+
+        android:dependency="PREFERENCE_KEY_NOTIFICATIONS_NEW_MESSAGE"
+
+        android:key="PREFERENCE_KEY_NOTIFICATIONS_NEW_MESSAGE_VIBRATE"
+
+        android:title="@string/pref_title_vibrate"
+
+        android:defaultValue="true"
+
+        />
+
+</PreferenceScreen>
