@@ -8,7 +8,7 @@ This repo contains the implementation of a [Udacity](https://www.udacity.com/) s
 
 ## Version History :package:
 
-**latest** 	[XML Test v1.0.0](https://github.com/joshua-kairu/xml-test/releases/download/v1.0/XML-Test-v1.0.0.apk) 	Thursday, May 26, 2016
+**latest**&nbsp;&nbsp;&nbsp;[Graphiscaler v1.0.0](https://github.com/joshua-kairu/graphiscaler/releases/download/v1.0.0/graphiscaler-v1.0.0.apk)&nbsp;&nbsp;&nbsp;Thursday, May 26, 2016 <br/>
 This repo tries its best to follow the [Semantic Versioning](http://semver.org/) guidelines.
 
 ## How To Use :wrench:
@@ -21,7 +21,7 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 Here is a video of the app in action.
 
-![](screen-records/graphiscaler-2016-06-02-215536.mp4) 
+![](screen-records/graphiscaler-2016-06-02-215536.gif) 
 
 ## Abilities :muscle:
 
