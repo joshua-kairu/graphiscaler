@@ -41,21 +41,6 @@ As of Thursday, June 2, 2016, some of the things that can be done in the future 
 - [ ] Allow font change.
 - [ ] Use other kinds of fonts.
 
-Some of these items have been implemented in a related repo called [fonti](download link).
-
-fonti allows you 
-* to select a font from the collection of the default font, Courgette Regular, Noto Sans Bold, and Oxygen Mono Regular.
-
-fonti, however, loses the ability to:
-* display Android type. Can't set style in code. :worried:
-
-Here is a video of fonti:
-![](screen-records/fonti-2016-06-02-214602.mp4) 
-
-The latest from the fonti side of life can be found here:
-**latest** 	[XML Test v1.0.0](https://github.com/joshua-kairu/xml-test/releases/download/v1.0/XML-Test-v1.0.0.apk) 	Thursday, May 26, 2016
-This repo tries its best to follow the [Semantic Versioning](http://semver.org/) guidelines.
-
 ## Other things :books:
 
 Thanks to:
